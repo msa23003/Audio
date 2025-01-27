@@ -1,4 +1,4 @@
-# README: Workflow for Text-to-Speech, Translation, and Audio Processing Tasks
+Workflow for Tasks
 
 ## Overview
 This document provides a detailed workflow for three tasks: converting HTML content to speech, translating text and audio content, and analyzing YouTube audio content. Each task is described step-by-step for better understanding.
