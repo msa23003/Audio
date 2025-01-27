@@ -3,10 +3,8 @@ Workflow for Tasks
 ## Overview
 This document provides a detailed workflow for three tasks: converting HTML content to speech, translating text and audio content, and analyzing YouTube audio content. Each task is described step-by-step for better understanding.
 
----
 
 ## TASK 1: Text-to-Speech (HTML to Audio)
-### Goal
 Convert HTML content into an audio file using Google's Text-to-Speech API.
 
 ### Steps
@@ -30,10 +28,7 @@ Convert HTML content into an audio file using Google's Text-to-Speech API.
 ### Outcome
 The HTML content is converted into a high-quality audio file.
 
----
-
 ## TASK 2: Translation Task
-### Goal
 Translate the text content within an HTML file to a target language while preserving the structure and formatting.
 
 ### Steps
@@ -53,10 +48,8 @@ Translate the text content within an HTML file to a target language while preser
 ### Outcome
 An HTML file with translated text content while retaining the original formatting.
 
----
 
 ## TASK 3: Audio Translation and Analysis
-### Goal
 Download audio from a YouTube video, process it for transcription, translate the transcription to a target language, and convert the translation to speech.
 
 ### Steps
@@ -82,7 +75,6 @@ Download audio from a YouTube video, process it for transcription, translate the
 ### Outcome
 A translated audio file in the target language is generated from the YouTube video content.
 
----
 
 ## Notes
 - **Dependencies**: Ensure the following packages are installed:
@@ -99,8 +91,9 @@ A translated audio file in the target language is generated from the YouTube vid
 - **Error Handling**:
   - Tasks include basic error handling, such as invalid file paths, unsupported languages, and retries for API calls.
 
----
 
 ## Summary
 These tasks provide a seamless workflow for processing and translating text and audio content, leveraging Google Cloud APIs and open-source tools. The generated outputs (translated HTML and audio files) are ready for use in multilingual and multimedia applications.
+
+
 
